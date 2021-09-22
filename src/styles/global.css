@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond:wght@600&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .whiteText {
+    @apply text-white font-custom mt-10 text-2xl;
+  }
+  .whiteSubText {
+    @apply text-white font-custom1 -mt-4 text-sm opacity-70 w-64;
+  }
+  .whiteTextHeading {
+    @apply font-custom text-white -mt-3 text-3xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-5xl 2xl:text-6xl lg:w-11/12  xl:w-full;
+  }
+  .whiteTextHeadingTop {
+    @apply font-custom text-white mt-10 text-3xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-5xl 2xl:text-6xl lg:w-11/12  xl:w-full;
+  }
+  .blackTextHeading {
+    @apply font-custom text-black -mt-3 text-3xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-5xl 2xl:text-6xl lg:w-11/12  xl:w-full;
+  }
+  .spacing {
+    @apply my-10 mx-10 mt-10 pt-10 py-10 lg:px-40 xl:px-40 2xl:px-80 lg:py-20 md:py-14 xl:py-24;
+  }
+  .lessSpacing {
+    @apply my-10 mx-10 mt-5 pt-5 py-5 lg:px-40 xl:px-40 2xl:px-80 lg:py-20 md:py-14 xl:py-24;
+  }
+  .customerImage {
+    @apply w-60 py-6 px-5 sm:w-96 sm:py-0 hover:scale-125 transition transform duration-200 ease-out;
+  }
+  .imageHeight {
+    @apply h-2/3;
+  }
+  .scaleOut {
+    @apply hover:scale-105 transition transform duration-200 ease-out;
+  }
+}
