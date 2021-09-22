@@ -7,6 +7,7 @@ import OurCustomer from "../components/OurCustomer"
 import Toronto from "../assets/Toronto.png"
 import Dubai from "../assets/dubai.png"
 import Footer from "../components/footer"
+import Form from '../components/form'
 
 const IndexPage = () => (
   <div className="">
@@ -43,6 +44,8 @@ const IndexPage = () => (
       <img style={{ width: "100%" }} className="imageHeight" src={Toronto} />
       <img style={{ width: "100%" }} className="imageHeight" src={Dubai} />
     </div>
+
+    <Form/>
 
     <div
       style={{
